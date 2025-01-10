@@ -5,7 +5,7 @@ function getDOB() {
     if (!dobInput || !currentDateInput) {
         alert('Please enter both Date of Birth and Current Date.');
         return;
-    }   
+    }  
 
     const dob = new Date(dobInput);
     const cd = new Date(currentDateInput);
