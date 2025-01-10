@@ -6,7 +6,7 @@
 
 .card{
     position: absolute;
-    font-size: 30;
+    font-size: 35;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
