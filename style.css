@@ -1,8 +1,45 @@
-body{
-    align-content: center;
-        text-align: center;
-        background-color: lightcyan;
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
+
 .card{
-    font-size: 50;
+    position: absolute;
+    font-size: 30;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+    width: 65%;
+    padding: 10px 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.bground{
+    height: 100vh;
+    background-image: url(viva.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+       filter: blur(6px);
+       opacity: 0.75;
+}
+input{
+    position: relative;
+    width: 25%;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    line-height: 30px;
+    padding-left: 10px;
+    background: transparent;
+    border: 2px solid black;
+}
+button{
+    position: relative;
+    width: 15%;
+    outline: none;
+    border-radius: 10px;
+    line-height: 30px;
 }
