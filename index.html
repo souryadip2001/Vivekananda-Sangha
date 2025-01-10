@@ -8,22 +8,25 @@
 </head>
 
 <body>
+    <div class="bground"></div>
     <div class="card">
         <header>
-            <h1>Group Detector</h1>
+            <h1>মাখলা বিবেকানন্দ সংঘ</h1>
+            <h2><br>গ্রুপ সনাক্তকরণ</h2>
         </header>
 
         <div>
-            <label>Enter your Date of Birth</label><br>
+            <label><br>জন্ম তারিখ</label><br>
             <input id="inputDob" 
                    type="date" 
-                   value="" />
+                   placeholder="dd/mm/yyyy" />
+                   
         </div>
         <br />
 
         <!-- Take the date from which age is to be calculated -->
         <div>
-            <label>Current Date</label><br>
+            <label>বর্তমান তারিখ</label><br>
             <input id="cdate"
                    type="date" 
                    value="2025-01-01" />
@@ -32,11 +35,11 @@
 
         <button type="button" 
                 onclick="getDOB()">
-            Show Result<br>
+            <b>Submit</b><br>
         </button>
-        <br />
+        <br>
         <div id="currentAge"></div>
-        <script src="script.js"></script>
+        <div id="currentAge2"></div>
     </div>
 </body>
 
